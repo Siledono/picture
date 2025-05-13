@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <h1>Pictures App</h1>
-      <searchBar onSumbit={handleSumbit}/>
+      <SearchBar onSumbit={handleSumbit}/>
       <ImageList images={images}/> 
     </>
   )
