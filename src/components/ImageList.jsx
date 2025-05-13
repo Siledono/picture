@@ -3,7 +3,7 @@ import './ImageList.css'
 
 const ImageList = ({images}) => {
     const renderImage = images.map(image => {
-        return <ImageShow key = {image.id} image = {image0} />
+        return <ImageShow key = {image.id} image = {image} />
     })
     return (
         <div className="image-list">
