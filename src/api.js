@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const searchImages = async(term) => {
-    const url = 'https://api/unsplash.com/search/photos/?client_id=WbZCrs9fC38kbyE1R6RDjLceCN7b1sOsoIG6mtDnD74'
+    const url = 'https://api.unsplash.com/search/photos/?client_id=hT-l7ajjFyNpb1Gkq1rFu_CknsqKmGxlXqpsXP1SIzY'
 
     const response = await axios.get(url, {
         params: {
